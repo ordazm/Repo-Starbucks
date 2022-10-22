@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fenix&family=Poppins:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fenix&family=Poppins:wght@100;200;300;400;500&family=Pushster&display=swap");
+/* 
+font-family: 'Fenix', serif;
+font-family: 'Poppins', sans-serif; 
+font-family: 'Pushster', cursive;
+*/
+
+:root {
+	--main-color: #30791e;
+	--main-color-two: rgba(28, 15, 6, 0.89);
+	--bg-black: #000;
+	--bg-white: #fff;
+	--tx-black: #000;
+	--tx-white: #fff;
+	--tx-gray: #707070;
+	--card-bg: #c48b40a6;
+	--blur-color: #000;
+	--footer-tx: #fff;
+}
+
+body.light {
+	--main-color: #30791e;
+	--main-color-two: rgba(28, 15, 6, 0.89);
+	--bg-black: rgba(241, 241, 241, 0.808);
+	--bg-white: rgb(0, 0, 0);
+	--tx-black: rgb(255, 255, 255);
+	--tx-white: rgb(0, 0, 0);
+	--tx-gray: #707070;
+	--card-bg: #c48b40a6;
+	--blur-color: rgba(0, 0, 0, 0);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--bg-black);
+	transition: 0.4s ease-in-out;
+}
